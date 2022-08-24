@@ -9,10 +9,10 @@ int CountString(string[] input) // Метод пересчета количес�
 {
     int dl = Array.Length;
     int count = 0;
-    int maxLengthString = 3;
+    int maxLength = 3;
     for (int i = 0; i < dl; i++)
     {
-        if (Array[i].Length <= maxLengthString)
+        if (Array[i].Length <= maxLength)
         {
             count++;
         }
@@ -25,10 +25,10 @@ string[] CreateNewArray(string[] inputArray, int Words) // Метод созда
     int len = inputArray.Length;
     string[] outputArray = new string[Words];
     int count = 0;
-    int maxLengthString = 3;
+    int maxLength = 3;
     for (int i = 0; i < len; i++)
     {
-        if (inputArray[i].Length <= maxLengthString)
+        if (inputArray[i].Length <= maxLength)
         {
             outputArray[count] = inputArray[i];
             count++;
