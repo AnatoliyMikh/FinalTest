@@ -3,7 +3,7 @@
 // Метод для печати массива
 string PrintArray(string[] inputArray)
 {
-    return string.Join(", ", inputArray)
+    return string.Join(", ", inputArray);
 }
 
 
